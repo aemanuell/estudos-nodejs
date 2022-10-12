@@ -1,11 +1,7 @@
 import { Category } from "../modal/Category";
+import { ICategoriesRepository, ICreateCategoryDTO } from "./ICategoryRepository";
 
-interface ICreateCategoryDTO {
-    name: string;
-    description: string;
-}
-
-class CategoryRepository {
+class CategoryRepository implements ICategoriesRepository {
     private categories: Category[] = [];
 
     constructor() {
