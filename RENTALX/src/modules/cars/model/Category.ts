@@ -1,6 +1,6 @@
 import { v4 as uuidv4} from 'uuid';
 
-export class Category {
+class Category {
     id?: string;
     name: string;
     description: string;
@@ -12,3 +12,5 @@ export class Category {
         }    
     }
 }
+
+export {Category}
