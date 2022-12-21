@@ -1,5 +1,5 @@
 Arguments: 
-  /home/emanuel/.nvm/versions/node/v19.2.0/bin/node /usr/share/yarn/bin/yarn.js add @types/multer -D
+  /home/emanuel/.nvm/versions/node/v19.2.0/bin/node /usr/share/yarn/bin/yarn.js add swagger-ui-express
 
 PATH: 
   /home/emanuel/.nvm/versions/node/v19.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: connect ENETUNREACH 2606:4700::6810:1923:443
+  Error: connect ENETUNREACH 2606:4700::6810:1023:443
       at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1283:16)
 
 npm manifest: 
@@ -29,6 +29,7 @@ npm manifest:
     "dependencies": {
       "@typescript-eslint/eslint-plugin": "^5.38.0",
       "@typescript-eslint/parser": "^5.38.0",
+      "csv-parse": "^5.3.3",
       "eslint-config-airbnb": "^19.0.4",
       "eslint-plugin-import": "^2.25.3",
       "eslint-plugin-jsx-a11y": "^6.5.1",
@@ -720,6 +721,11 @@ Lockfile:
       path-key "^3.1.0"
       shebang-command "^2.0.0"
       which "^2.0.1"
+  
+  csv-parse@^5.3.3:
+    version "5.3.3"
+    resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-5.3.3.tgz#3b75d2279e2edb550cbc54c65b25cbbf3d0033ad"
+    integrity sha512-kEWkAPleNEdhFNkHQpFHu9RYPogsFj3dx6bCxL847fsiLgidzWg0z/O0B1kVWMJUc5ky64zGp18LX2T3DQrOfw==
   
   damerau-levenshtein@^1.0.8:
     version "1.0.8"
